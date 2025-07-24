@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("🎓 Quy đổi mức điểm chuẩn tương đương giữa các phương thức năm 2025")
+st.title("TRA CỨU THAM KHẢO KẾT QUẢ TUYỂN SINH NĂM 2025")
 
-subject = st.selectbox("🧠 Chọn môn V-SAT/ĐGNL-ĐHQG TP. Hồ Chí Minh", ["Toán_VSAT", "Vật lí_VSAT", "Hóa học_VSAT", "Sinh học_VSAT", "Lịch sử_VSAT", "Địa lí_VSAT", "Tiếng Anh_VSAT", "Ngữ văn_VSAT", "ĐGNL – ĐHQG TP. Hồ Chí Minh"])
+subject = st.selectbox("Chọn môn V-SAT/ĐGNL-ĐHQG TP. Hồ Chí Minh", ["Toán_VSAT", "Vật lí_VSAT", "Hóa học_VSAT", "Sinh học_VSAT", "Lịch sử_VSAT", "Địa lí_VSAT", "Tiếng Anh_VSAT", "Ngữ văn_VSAT", "ĐGNL – ĐHQG TP. Hồ Chí Minh"])
 #diem_vsat = st.number_input("👉 Nhập điểm V-SAT:", min_value=0.0, max_value=150.0, step=0.1)
 
 if subject == "ĐGNL – ĐHQG TP. Hồ Chí Minh":
