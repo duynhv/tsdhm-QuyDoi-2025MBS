@@ -156,28 +156,28 @@ def quy_doi(x, data):
 if diem > 0:
     if subject == "Toán_VSAT":
         result = quy_doi(diem, data_toan)
-        st.success(f"✅ Điểm quy đổi Toán (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Toán: {result}")
     elif subject == "Vật lí_VSAT":
         result = quy_doi(diem, data_vatli)
-        st.success(f"✅ Điểm quy đổi Vật lí (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Vật lí: {result}")
     elif subject == "Hóa học_VSAT":
         result = quy_doi(diem, data_hoahoc)
-        st.success(f"✅ Điểm quy đổi Hóa học (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Hóa học: {result}")
     elif subject == "Sinh học_VSAT":
         result = quy_doi(diem, data_sinhhoc)
-        st.success(f"✅ Điểm quy đổi Sinh học (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Sinh học: {result}")
     elif subject == "Lịch sử_VSAT":
         result = quy_doi(diem, data_lichsu)
-        st.success(f"✅ Điểm quy đổi Lịch sử (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Lịch sử: {result}")
     elif subject == "Địa lí_VSAT":
         result = quy_doi(diem, data_diali)
-        st.success(f"✅ Điểm quy đổi Địa lí (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Địa lí: {result}")
     elif subject == "Tiếng Anh_VSAT":
         result = quy_doi(diem, data_tienganh)
-        st.success(f"✅ Điểm quy đổi Tiếng Anh (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Tiếng Anh: {result}")
     elif subject == "Ngữ văn_VSAT":
         result = quy_doi(diem, data_nguvan)
-        st.success(f"✅ Điểm quy đổi Ngữ văn (V-SAT): {result}")
+        st.success(f"✅ Điểm quy đổi Ngữ văn: {result}")
     elif subject == "ĐGNL – ĐHQG TP. Hồ Chí Minh":
         result = quy_doi(diem, data_DGNL)
         st.success(f"✅ Điểm quy đổi ĐGNL – ĐHQG TP. Hồ Chí Minh: {result}")
